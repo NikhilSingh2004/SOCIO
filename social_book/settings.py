@@ -73,18 +73,6 @@ WSGI_APPLICATION = 'social_book.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#         'default': {
-#             'ENGINE': 'djongo',
-#             'NAME': 'socio',
-#             'ENFORCE_SCHEMA': False,
-#             'CLIENT': {
-#                 'host': 'mongodb+srv://Abilash8775:Anna%408775@cluster0.yqzoutg.mongodb.net/'
-#             }  
-#         }
-# }
-
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
